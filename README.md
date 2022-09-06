@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# ABZ Frontend task (Test)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screen Recording 2022-08-29 at 11 47 44 PM](https://user-images.githubusercontent.com/26861798/188654267-a7a9b603-9cbb-4d9d-9c80-41383938cc12.png)
 
-## Available Scripts
+Given a mockup and other resources to develop a simple sigle page appthat allow users to register and view other users using React:
 
-In the project directory, you can run:
+1. an API was consumed using GET mehtod to display 5 users per page.
+2. On click the "Show more" button, the user data is loaded with subsequent page data e.g. page 1 to page 2 data and so on. When the last page is reached, the button is hidden.
+3. an API was consumed using GET method to populate the radio buttons with available positions.
+4. an API was consumed using POST method to register new users with required form validations managed
 
-### `yarn start`
+5. Optimization was carried as images were minimized, fonts files were added into the root folder and other required optimization tehcniques employed to ensure that the application meets minimum standards on Google Page Speed and Google Chrome Performance Audit / Lighthouse.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## URL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://abz.onrender.com
 
-### `yarn test`
+## How it works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pre-requisites and Local Development
 
-### `yarn build`
+Developers using this project should already have:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- node
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the application by following the instructions below
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ git clone https://github.com/todak2000/abz-test.git
+$ cd abz-test
+```
 
-### `yarn eject`
+### Install required Libraries
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+$ yarn install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Start the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+$ yarn start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+### API referenced
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+    const baseUrl = "https://frontend-test-assignment-api.abz.agency/api/v1";
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+Documentation details on the API - [HERE](https://apidocs.abz.dev/test_assignment_for_frontend_developer_api_documentation)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+[Daniel Olagunju](https://github.com/todak2000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+Inspiration, documentation, etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ABZ.Agency](https://abz.agency/)
