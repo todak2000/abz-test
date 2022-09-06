@@ -1,4 +1,11 @@
 /* General CSS styling - used across all components */
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+   url("../src/Assets/Fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+  font-weight: Normal;
+  }
+  
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

@@ -30,6 +30,8 @@ p{
 }
 .card-img{
     border-radius: 50%;
+    width: 70px;
+    height:70px;
 }
 .mt-20{
     margin-top:20px;

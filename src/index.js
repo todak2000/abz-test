@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import './fonts/Goldman/Goldman-Bold.ttf';
+import '../src/Assets/Fonts/Nunito/Nunito-Regular.ttf'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
