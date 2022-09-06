@@ -67,7 +67,7 @@ function Get(){
     }, [page])
     return (
         <div className='bg-color get-div'>
-            <p className='h1-black'>Working with GET request</p>
+            <p className='h1-black tac'>Working with GET request</p>
             <div className='get-inner-div'>
                 {loading ?
                     <Spinner />

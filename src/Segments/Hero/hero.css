@@ -25,4 +25,11 @@
         width:90%;
         text-align: center;
     }
+    .hero-div{
+        background: url('../../Assets/hero-bg-mobile.png');
+        height:500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

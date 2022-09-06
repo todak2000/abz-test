@@ -60,4 +60,11 @@ p{
 
 .tooltip-div:hover .tooltip-text {
     display: block;
-  }
+}
+
+/* Media Query for mobile responsiveness */
+@media (max-width: 708px) {
+    .tac {
+        text-align: center;
+    }
+}
