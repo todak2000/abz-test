@@ -15,6 +15,12 @@
     flex-direction: column;
     margin-top:30px;
 }
+
+.post-inner-inner{
+    margin-bottom: 50px;
+}
+
+/* Input[text] Desktop CSS Styling */
 .input-text{
     border:0;
     width: 380px;
@@ -27,6 +33,73 @@
     color:#00000087;
     font-family: 'Nunito', sans-serif;
 }
+
+/* Input Label CSS Styling */
+.input-label{
+    margin:0;
+    margin-top:-10px;
+    margin-left: 20px;
+    width:70px;
+    text-align: center;
+    background-color: #f8f8f8;
+    font-family: 'Nunito', sans-serif;
+    color:#7e7e7e
+}
+
+.input-label-error{
+    margin:0;
+    margin-top:-10px;
+    margin-left: 20px;
+    width:70px;
+    text-align: center;
+    background-color: #f8f8f8;
+    font-family: 'Nunito', sans-serif;
+    color:#cb3d40
+}
+
+.input-label-error-top{
+    margin:0;
+    margin-top:10px;
+    text-align: center;
+    background-color: #f8f8f8;
+    font-family: 'Nunito', sans-serif;
+    color:#cb3d40
+}
+
+.input-div{
+    border: 1px solid #D0CFCF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.input-div-error{
+    border: 1px solid #cb3d40;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text-file{
+    display: none;
+}
+
+.input-div-upload-error{
+    border: 1px solid #cb3d40;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Input[file] CSS Styling */
+.input-div-upload{
+    border: 1px solid #D0CFCF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;  
+}
+
+/* Input[text] Mobile CSS Styling */
 .input-text-two{
     border:0;
     width: 297px;
@@ -39,34 +112,24 @@
     color:#00000087;
     font-family: 'Nunito', sans-serif;
 }
-.input-label{
-    margin:0;
-    margin-top:-10px;
-    margin-left: 20px;
-    width:70px;
-    text-align: center;
-    background-color: #f8f8f8;
-    font-family: 'Nunito', sans-serif;
-    color:#7e7e7e
+
+/* Upload button CSS styling */
+.upload-but{
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    border-radius: 4px 0px 0px 4px;
+    width:83px;
+    color:#00000087;
+} 
+
+.upload-but-error{
+    border:0;
+    border-right: 1px solid #cb3d40;
+    border-radius: 4px 0px 0px 4px;
+    width:83px;
+    color:#00000087;
 }
-.input-label-error{
-    margin:0;
-    margin-top:-10px;
-    margin-left: 20px;
-    width:70px;
-    text-align: center;
-    background-color: #f8f8f8;
-    font-family: 'Nunito', sans-serif;
-    color:#cb3d40
-}
-.input-label-error-top{
-    margin:0;
-    margin-top:10px;
-    text-align: center;
-    background-color: #f8f8f8;
-    font-family: 'Nunito', sans-serif;
-    color:#cb3d40
-}
+
+/* paragraph text CSS styling for error, helper texts */
 .error-p{
     font-family: 'Nunito';
     font-size: 12px;
@@ -75,6 +138,7 @@
     text-align: left;
     width: 100%;
 }
+
 .helper-p{
     font-family: 'Nunito';
     font-size: 12px;
@@ -84,6 +148,7 @@
     width: 100%;
     margin-top:5px;
 }
+
 .select-p{
     font-family: 'Nunito';
     font-size: 16px;
@@ -92,55 +157,15 @@
     text-align: left;
     width: 100%;
 }
-.input-div{
-    border: 1px solid #D0CFCF;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;  
-}
-.input-div-upload{
-    border: 1px solid #D0CFCF;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: row;  
-}
-.post-inner-inner{
-    margin-bottom: 50px;
-}
-.input-div-error{
-    border: 1px solid #cb3d40;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-}
-.input-text-file{
-    display: none;
-}
-.input-div-upload-error{
-    border: 1px solid #cb3d40;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: row;
-}
-.upload-but{
-    border: 1px solid rgba(0, 0, 0, 0.87);
-    border-radius: 4px 0px 0px 4px;
-    width:83px;
-    color:#00000087;
-} 
-.upload-but-error{
-    border:0;
-    border-right: 1px solid #cb3d40;
-    border-radius: 4px 0px 0px 4px;
-    width:83px;
-    color:#00000087;
-}
+
+/* Input[radio] CSS Styling */
 .radio-div{
     display: flex;
     flex-direction: column;
     width: 100%;
 
 }
+
 .radio-div >div > span {
     font-family: 'Nunito';
     font-size: 16px;

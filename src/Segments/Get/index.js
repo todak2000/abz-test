@@ -18,7 +18,7 @@ const Card =(props)=>{
     }
 
     return (
-        <div className='card' key={index} id="users">
+        <div className='card' key={index} >
             <img src={item.photo} alt='pics_image' className='card-img'/>
             <div className='tooltip-div mt-20'>
                 <p className='p-black'>{trimString(item.name)} </p> 
@@ -66,7 +66,7 @@ function Get(){
         })
     }, [page])
     return (
-        <div className='bg-color get-div'>
+        <div className='bg-color get-div' id="users">
             <p className='h1-black tac'>Working with GET request</p>
             <div className='get-inner-div'>
                 {loading ?

@@ -7,10 +7,32 @@
     flex-direction: column;
     padding:5%;
 }
+
+.get-inner-div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 p{
     margin:0;
     padding:0;
 }
+
+.m-5{
+    padding: 0;
+    margin:0;
+}
+
+
+.mt-20{
+    margin-top:20px;
+}
+
+/* Users Card CSS styling */
 .card{
     background: #FFFFFF;
     border-radius: 10px;
@@ -24,26 +46,13 @@ p{
     margin: 2%;
 }
 
-.m-5{
-    padding: 0;
-    margin:0;
-}
 .card-img{
     border-radius: 50%;
     width: 70px;
     height:70px;
 }
-.mt-20{
-    margin-top:20px;
-}
-.get-inner-div{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+
+/* Tootip styling CSS */
 .tooltip-text{
     display: none;
     background-color: #00000087;
@@ -52,10 +61,9 @@ p{
     border-radius: 6px;
     padding: 5px;
     font-family: 'Nunito', sans-serif;
-
-    position: relative;
+    position: fixed;
+    top:50vh;
     z-index: 1;
-    top: 0px;
 }
 
 .tooltip-div:hover .tooltip-text {

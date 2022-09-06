@@ -1,6 +1,6 @@
 /* CSS styling - for Hero component */
 .hero-div{
-    background: url('../../Assets/hero-bg.png');
+    background: url('../../Assets/hero-bg.png'); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
