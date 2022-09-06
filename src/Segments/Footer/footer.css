@@ -1,0 +1,11 @@
+/* Footer CSS styling - for footer component */
+.footer-div{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5%;
+    border-top: 1px solid #d0cfcf;
+}

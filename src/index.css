@@ -1,0 +1,102 @@
+/* General CSS styling - used across all components */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+}
+*:focus {
+  outline: none;
+}
+
+
+.h1-white {
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+}
+
+.p-white {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+}
+.h1-black {
+  font-size: 40px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Nunito', sans-serif;
+}
+
+.p-black {
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Nunito', sans-serif;
+}
+
+.primary-color {
+  background-color: #f4e041;
+}
+
+.secondary-color {
+  background-color: #00bdd3;
+}
+
+.bg-color {
+  background-color: #f8f8f8;
+}
+
+.disabled-color {
+  background-color: #b4b4b4;
+}
+.disabled-button {
+  background-color: #b4b4b4;
+  border-radius: 80px;
+  height: 34px;
+  width:100px;
+  border:0;
+  color:#ffffff;
+  margin: 0 10px;
+  font-family: 'Nunito', sans-serif;
+}
+.primary-button {
+  background-color: #f4e041;
+  border-radius: 80px;
+  height: 34px;
+  width:100px;
+  border:0;
+  margin: 0 10px;
+  font-family: 'Nunito', sans-serif;
+}
+.primary-button:hover {
+  background-color: #ffe302;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #00BDD3;
+  border-radius: 50%;
+  width: 80px; 
+  height: 80px;
+  animation: spin 1s linear infinite;
+}
+
+.spinBg{
+  display: flex;
+  justify-content: center;
+  height:100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

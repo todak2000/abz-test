@@ -1,0 +1,61 @@
+/* CSS styling - for Working with Get  request component */
+.get-div{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding:5%;
+}
+p{
+    margin:0;
+    padding:0;
+}
+.card{
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 254px;
+    width: 282px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding:20px;
+    margin: 2%;
+}
+
+.m-5{
+    padding: 0;
+    margin:0;
+}
+.card-img{
+    border-radius: 50%;
+}
+.mt-20{
+    margin-top:20px;
+}
+.get-inner-div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tooltip-text{
+    display: none;
+    background-color: #00000087;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+
+    position: relative;
+    z-index: 1;
+    top: 0px;
+}
+
+.tooltip-div:hover .tooltip-text {
+    display: block;
+  }

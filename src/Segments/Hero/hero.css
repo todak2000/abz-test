@@ -1,0 +1,28 @@
+/* CSS styling - for Hero component */
+.hero-div{
+    background: url('../../Assets/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-inner-div{
+    width:36%;
+    text-align: center;
+}
+.mt-20{
+    margin-top:20px;
+}
+
+/* Media Query for Mobile responsiveness */
+@media (max-width: 708px) {
+    .hero-inner-div{
+        width:90%;
+        text-align: center;
+    }
+}
